@@ -52,13 +52,13 @@ import numpy as np
 
 # ----------------------------------------------------------------------
 # Start Fill in Data
-nodes_fc = r"D:\Projects\TTools_9\JohnsonCreek.gdb\jc_stream_nodes"
+nodes_fc = r"C:\Users\ecostel\Desktop\PSM Project\Shade.gdb\TillamookRiverNodes"
 topo_directions = 1
 searchDistance_max_km = 10
-z_raster = r"D:\Projects\TTools_9\JohnsonCreek.gdb\jc_be_m_mosaic"
-z_units = "Meters"
-topo_fc = r"D:\Projects\TTools_9\JohnsonCreek.gdb\topo_samples"
-block_size = "#" # OPTIONAL defualt to 5
+z_raster = r"C:\LiDAR\North_Coast\MOSAICS.gdb\BE"
+z_units = "Feet"
+topo_fc = r"C:\Users\ecostel\Desktop\PSM Project\Shade.gdb\TillamookRiverTopo"
+block_size = "5" # OPTIONAL defualt to 5
 overwrite_data = True
 # End Fill in Data
 
