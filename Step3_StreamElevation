@@ -47,11 +47,11 @@ from collections import defaultdict
 
 # ----------------------------------------------------------------------
 # Start Fill in Data
-nodes_fc = r"D:\Projects\TTools_9\JohnsonCreek.gdb\jc_stream_nodes"
+nodes_fc = r"C:\Users\ecostel\Desktop\PSM Project\Shade.gdb\TillamookRiverNodes"
 searchCells = 2
 smooth_flag = True
-z_raster = r"D:\Projects\TTools_9\JohnsonCreek.gdb\jc_be_m_mosaic"
-z_units = "Meters"
+z_raster = r"C:\LiDAR\North_Coast\MOSAICS.gdb\BE"
+z_units = "Feet"
 block_size = 5 # OPTIONAL defualt to 5
 overwrite_data = True
 # End Fill in Data
