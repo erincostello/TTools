@@ -849,7 +849,7 @@ try:
     if block_size in ["#", ""]:
         block_size = int(con_from_m * 5000)
     else:
-        block_size = int(con_from_m * block_size * 1000)    
+        block_size = int(con_from_m * 1000)    
 
     # Get the elevation raster cell size in units of the raster
     x_cellsize = float(arcpy.GetRasterProperties_management(z_raster, "CELLSIZEX").getOutput(0))
