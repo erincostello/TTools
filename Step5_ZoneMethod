@@ -48,7 +48,7 @@ gc.enable()
 
 # ----------------------------------------------------------------------
 # Start Fill in Data
-nodes_fc = r"\\deqhq1\wq-share\ECostello\TTools.gdb\TillamookRiverNodes"
+nodes_fc = r"\\deqhq1\wq-share\ECostello\TTools.gdb\TillamookRiverNodes2"
 trans_count = 8 
 transsample_count = 5 # does not include a sample at the stream node
 transsample_distance = 8
@@ -62,7 +62,7 @@ k_raster = "#" # OPTIONAL This is the k value for LAI
 oh_raster = "#" # OPTIONAL This is the overhang raster
 z_raster = r"\\deqhq1\wq-share\ECostello\TTools.gdb\BE"
 z_units = "Feet"
-zones_fc = r"\\deqhq1\wq-share\ECostello\TTools.gdb\LC_zones"
+zones_fc = r"\\deqhq1\wq-share\ECostello\TTools.gdb\LC_zones2"
 overwrite_data = True
 # End Fill in Data
 # ----------------------------------------------------------------------
